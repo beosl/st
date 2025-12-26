@@ -139,7 +139,7 @@ async def ppc(cards, card_num, total_cards):
             "accept": "*/*",
             "accept-language": "en-US,en;q=0.9,nl;q=0.8,ar;q=0.7",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
-            "origin": https://dainte.com,
+            "origin": "https://dainte.com",
             "referer": f"https://dainte.com/my-account/add-payment-method/",
             "sec-ch-ua": '"Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"',
             "sec-ch-ua-mobile": "?0",
@@ -238,3 +238,4 @@ if __name__ == "__main__":
     PK = "pk_live_51F0CDkINGBagf8ROVbhXA43bHPn9cGEHEO55TN2mfNGYsbv2DAPuv6K0LoVywNJKNuzFZ4xGw94nVElyYg1Aniaf00QDrdzPhf"
 
     asyncio.run(main())
+
